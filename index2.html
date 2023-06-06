@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PARTE I</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <title>Grupo Nro 5</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Template For Software Startups">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/dark.min.css">
+    <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="docs-page">
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
+                        type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2"
+                                src="assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Grupo<span
+                                    class="text-alt">Nro 5</span></span></a></div>
+                </div>
+                <!--//docs-logo-wrapper-->
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+
+
+                    <ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/"><i
+                                    class="fab fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/"><i
+                                    class="fab fa-youtube fa-fw"></i></a></li>
+                    </ul>
+                    <!--//social-list-->
+
+                </div>
+                <!--//docs-top-utilities-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//branding-->
+    </header>
+    <!--//header-->
+
+    <div class="docs-wrapper">
+        <div id="docs-sidebar" class="docs-sidebar">
+            <div class="top-search-box d-lg-none p-3">
+                <form class="search-form">
+                    <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+                    <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <nav id="docs-nav" class="docs-nav navbar">
+                <ul class="section-items list-unstyled nav flex-column pb-3">
+                    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span
+                                class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>DOM</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">DOM Métodos</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">DOM Document</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">DOM Elements</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">DOM HTML</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">DOM Forms</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">DOM CSS</a></li>
+                </ul>
+
+            </nav>
+            <!--//docs-nav-->
+        </div>
+        <!--//docs-sidebar-->
+        <div class="docs-content">
+            <div class="container">
+                <article class="docs-article" id="section-1">
+                    <header class="docs-header">
+                        <h1 class="docs-heading">DOM Intro <span class="docs-time">Última Actualización
+                                17/05/2023</span></h1>
+                        <section class="docs-intro">
+                            <p>HTML DOM (Document Object Model) hace referencia al modelo de objetos del documento en el momento en que se carga una página web. Este modelo es construido a partir de un árbol de objetos, y cada objeto permite modelar tanto la ventana propia del navegador, la página web, el historial de navegación, así como cualquier elemento HTML. El DOM permite ser accedido a través de JavaScript, para poder crear, modificar, o eliminar elementos utilizando código de programación.
+                            </p>
+                            <br>
+                            <p>DOM o Document Object Model es un conjunto de utilidades específicamente diseñadas para manipular documentos XML. Por extensión, DOM también se puede utilizar para manipular documentos XHTML y HTML. Técnicamente, DOM es una API de funciones que se pueden utilizar para manipular las páginas XHTML de forma rápida y eficiente.</p>
+
+                            <br>
+                            <p>Antes de poder utilizar sus funciones, DOM transforma internamente el archivo XML original en una estructura más fácil de manejar formada por una jerarquía de nodos. De esta forma, DOM transforma el código XML en una serie de nodos interconectados en forma de árbol. El árbol generado no sólo representa los contenidos del archivo original (mediante los nodos del árbol) sino que también representa sus relaciones (mediante las ramas del árbol que conectan los nodos).</p>
+                            <br>
+                            <p>Aunque en ocasiones DOM se asocia con la programación web y con JavaScript, la API de DOM es independiente de cualquier lenguaje de programación. De hecho, DOM está disponible en la mayoría de lenguajes de programación comúnmente empleados. </p>
+
+                            <img src="images/dom-1.jpg" class="img-fluid img-thumbnail">
+                            <p>Al estar "amparado" por un lenguaje de programación, todas estas tareas se pueden automatizar, incluso indicando que se realicen cuando el usuario haga acciones determinadas, como por ejemplo: pulsar un botón, mover el ratón, hacer click en una parte del documento, escribir un texto, etc...</p>
+
+                            <p>Pero, ¿quién define la forma en la que DOM debe funcionar en los navegadores y motores web? Se trata del W3C o World Wide Web Consortium, que además maneja otros sistemas. El W3C es una entidad internacional, creada en 1994 por Tim Berners-Lee, el padre de la Internet; que desarrolla padrones abiertos, asegurando el crecimiento de la web. Dentro de la entidad existe un grupo llamado Web Platform Working Group, responsable por DOM. La W3C es responsable por diversos otros padrones, protocolos y lenguajes, como:
+                            CSS;
+                            HTML;
+                            XML;
+                            SVJ.
+                            
+                        </section>
+                    </header>
+
+                    <section class="docs-section" id="item-1-1">
+                        <h2 class="section-heading">Métodos HTML DOM</h2>
+                        <p>Las propiedades de HTML DOM son valores que representan elementos que pueden ser accedidos o modificados, en cambio los métodos son las acciones que intervienen para modificar dichos parámetros.</p>
+                        <p> HTML DOM permite modificar los siguientes parámetros.</p>
+                        <p>Window: el objeto window es un objeto del navegador que siempre está en la parte superior de la jerarquía. Es como una API que se utiliza para configurar y acceder a todas las propiedades y métodos del navegador. Es creado automáticamente por el navegador. </p>
+                        <p>Document: cuando se carga un documento HTML en una ventana, se convierte en un objeto documento. El objeto document tiene varias propiedades que hacen referencia a otros objetos que permiten acceder y modificar el contenido de la página web. Si es necesario acceder a cualquier elemento en una página HTML, siempre comenzamos accediendo al objeto 'document'.</p>
+                        <p>Form: está representado por etiquetas de formulario . </p>
+                        <p>Link: está representado por etiquetas de enlace . </p>
+                        <p>Anchor: está representado por etiquetas href.</p>
+                        <p>Form Control Element: el formulario puede tener muchos elementos de control, como campos de texto, botones, botones de radio, casillas de verificación, etc. </p>
+                        <p>Además, para acceder y modificar dichos parámetros se utilizan diferentes métodos o funciones. Los métodos disponibles son:</p>
+                        <p>write (“string”): Escribe la cadena dada en el documento.</p>
+                        <p>getElementById(): devuelve el elemento que tiene el valor de identificación dado.</p>
+                        <p>getElementsByName(): devuelve todos los elementos que tienen el valor del nombre dado.</p>
+                        <p>getElementsByTagName(): devuelve todos los elementos que tienen el nombre de etiqueta dado.</p>
+                        <p>getElementsByClassName(): devuelve todos los elementos que tienen el nombre de clase dado.</p>
+                        </p>
+                        <h4 class="heading">Ejemplo 1</h4>
+                        <div class="docs-code-block">
+                            <pre class="shadow-lg rounded"><code class="html hljs">function mostrarimg(){
+document.getElementById('cont2').innerHTML='&ltimg src="images/firefox.png"&gt';
+}
+</code></pre>
+
+                        </div>
+                        <!--//docs-code-block-->
+                        <h3>Demo</h3>
+                        <div id="cont2"></div>
+                        <button type="button" onclick="mostrarimg()">Mostrar foto</button>
+                        <h4 class="heading" style="padding-top:1%">getElementByID</h4>
+                        Hide y Show permiten agregar parámetros adicionales que modifican su compartamiento. La
+                        velocidad permite definir qué tan rápido será la animación, medida en milisegundos, o utilizando
+                        los valores de "slow", "normal" o "fast". Callback es un parámetro opcional para volver a llamar
+                        la función una vez ha terminado una operación completa.
+                        <p>Sintaxis: <code>document.getElementById("demo");</code></p>
+                        
+
+</code></p>
+                        <div class="docs-code-block">
+                            <pre class="shadow-lg rounded"><code class="javascript hljs">$(document).ready(function(){
+    $("#mostrar").click(function(){
+        $('.target').show(3000,function() {
+        });
+    });
+    $("#ocultar").click(function(){
+        $('.target').hide(3000,function() {
+        });
+    });
+});
+</code></pre>
+
+                        </div>
+                        <!--//docs-code-block-->
+                        <h3>Demo</h3>
+
+                        <h1 id="grupo">Grupo Nro 5</h1>
+                        <input type="button" onclick="grupo()" value="Click aquí para cambiar de color el texto" />
+                        <div class="callout-block callout-block-info">
+
+                            <div class="content">
+                                <h4 class="callout-title">
+                                    <span class="callout-icon-holder me-1">
+                                        <i class="fas fa-info-circle"></i>
+                                    </span>
+                                    <!--//icon-holder-->
+                                    Nota
+                                </h4>
+                                <p>El ID es una cadena que distingue entre mayúsculas y minúsculas y es única dentro del documento; solo un elemento puede tener un ID dado.</p>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        </section>
+
+                        <section class="docs-section" id="item-1-2">
+                            <h2 class="section-heading">DOM Document</h2>
+                            <p>Document es un objeto de HTML DOM, considerado como nodo padre de todos los demás objetos que existen en un sitio web. Dado que el modelo DOM se muestra como un grafo, específicamente de tipo árbol, dónde el nodo raíz es el nodo document, se debe acceder primero a este objeto para poder acceder a todos los demás.</p>
+
+                            <h4 class="heading" style="padding-top:1%">Ejemplo</h4>
+
+                            <div class="docs-code-block">
+                                <pre class="shadow-lg rounded"><code class="javascript hljs">function myFunction() {
+    var x = document.getElementsByClassName("example");
+    x[0].innerHTML = "Hola Mundo";
+}
+</code></pre>
+
+                            </div>
+                            <!--//docs-code-block-->
+                            <h3>Demo</h3>
+                            
+                            <div class="example">Elemento DIV con clase Example.</div>
+                            <button onclick="myFunction()">Ejecutar</button>
+                            
+
+                        </section>
+                        <!--//section-->
+
+                        <section class="docs-section" id="item-1-3">
+                            <h2 class="section-heading">DOM Elements</h2>
+
+                            <p>Con JavaScript, es posible manipular elementos, encontrándolos a través de su ID, de su nombre de etiqueta, su nombre de clase, y utilizando selectores CSS.</p>
+
+                            <h4 class="heading" style="padding-top:1%">Ejemplo 1</h4>
+
+                            <div class="docs-code-block">
+                                <pre class="shadow-lg rounded"><code class="javascript hljs">function addText() {
+        var para = document.getElementsByName("demoPara");
+        para[0].innerHTML="Texto cambiado xddddd!";
+        para[1].innerHTML = "El grupo Nro. "
+          + "ha realizado esto con JavaScript";
+    }
+</code></pre>
+
+                            </div>
+                            <!--//docs-code-block-->
+                            <h3>Demo</h3>
+                            <p name="demoPara"></p>
+                            <button onclick="addText()">Ejecutar</button>
+                        </section>
+                        <!--//section-->
+
+                        <section class="docs-section" id="item-1-4">
+                            <h2 class="section-heading">DOM HTML</h2>
+                            <p>El HTML DOM le permite cambiar el contenido HTML utilizando la propiedad "innerHTML". El "innerHTML" se usa típicamente en páginas web para generar contenido HTML dinámico, como formularios de comentarios, formularios de registro y enlaces.</p>
+                            <p>Sintaxis: <code>
+elemento.innerHTML = valor;
+</code></p>
+                            <h4 class="heading" style="padding-top:1%">Ejemplo</h4>
+                            <div class="docs-code-block">
+                                <pre class="shadow-lg rounded"><code class="javascript hljs">function displayPhrase()
+{
+    document.getElementById("p1").innerHTML = "Este texto fue remplazado";
+}
+</code></pre>
+                            </div>
+                            <!--//docs-code-block-->
+                            <h3>Demo</h3>
+                            <p id="p1">Texto de prueba</p>
+                            <button type="button" onclick="displayPhrase()">Ejecutar</button>
+                        </section>
+                        <!--//section-->
+                        <section class="docs-section" id="item-1-5">
+                            <h2 class="section-heading">DOM FORMS</h2>
+                            <p>Con JavaScript es posible modificar los elementos de formularios HTML, utilizando el DOM. </p>
+                            <h4 class="heading" style="padding-top:1%">Ejemplo 1</h4>
+                            <p> En este ejemplo se obtendrá el ID del formulario utilizando HTML DOM y mostrarlo en pantalla.
+                            <div class="docs-code-block">
+                                <pre class="shadow-lg rounded"><code class="javascript hljs">function formsfuncion() {
+    var txt = document.getElementById(
+      "idformulario1").id;
+
+    document.getElementById(
+      "forms1").innerHTML = txt;
+}
+</code></pre>
+                            </div>
+                            <!--//docs-code-block-->
+                            <h3>Demo</h3>               
+                            <form align="center"
+                                  id="idformulario1"
+                                  method="GET"
+                                  target="_blank"
+                                  action="/action_page.php">
+                                First name:
+                                <br>
+                                <input type="text"
+                                       name="fname"
+                                       placeholder="Nombre">
+                                <br>
+                                <br> Last name:
+                                <br>
+                                <input type="text"
+                                       name="lname"
+                                       placeholder="Apellido">
+                                <br>
+                                <br>
+                            </form>
+                            <button onclick="formsfuncion()">
+                                Submit
+                            </button>
+                            <p id="forms1"
+                               style="color:green;
+                                      font-size:30px;">
+                            </p>
+
+                        </section>
+                        <!--//section-->
+                        <section class="docs-section" id="item-1-6">
+                            <h2 class="section-heading">DOM CSS</h2>
+
+                            <p>Modificar estilos CSS vía Javascript es una habilidad que debe tener todo desarrollador web que se precie. En este artículo repaso las diversas técnicas de manipulación del CSS, de un elemento HTML, o incluso de toda la página: </p>
+<pre>
+    Modificar una única propiedad CSS de un elemento.
+    Manipular el atributo class del elemento.
+    Técnicas avanzadas, como inyección de nodos style o el reemplazo de toda una hoja de estilos externa por otra distinta.
+</pre>
+<pre>
+                            <p>Cambiar una única propiedad CSS
+<p id="intro">Supongamos que, por algún motivo, se desea cambiar este párrafo a un color celeste</p></p>
+En JavaScript para cambiar el color de fondo se escribiría:
+var intro = document.getElementById('intro');
+intro.style.backgroundColor = '#FF00FF';
+</pre></p>
+
+
+                            <h4 class="heading" style="padding-top:1%">Ejemplo</h4>
+
+                            <div class="docs-code-block" id="ejemplo">
+                                <pre class="shadow-lg rounded" ><code class="javascript hljs">
+&lta href="javascript:void(document.body.style.backgroundColor='yellow')">Cambia color del fondo</a> 
+&lta href="javascript:void(document.body.style.backgroundColor='#fff')">Color normal</a> 
+&lta href="javascript:void(document.getElementById('ejemplo').style.fontSize='20px')">Aumenta la fuente de esta sección</a>
+&lta href="javascript:void(document.getElementById('ejemplo').style.fontSize='16px')">Tamaño normal</a>
+&lta href="javascript:void(document.getElementById('ejemplo').style.backgroundColor='yellow')">Cambia color del fondo</a>
+&lta href="javascript:void(document.getElementById('ejemplo').style.backgroundColor='white')">Color normal</a>  
+</code></pre>
+
+                            </div>
+                            <!--//docs-code-block-->
+                            <h3>Demo</h3>
+                            <div class="docs-code-block" id="ejemplo">
+                                <pre class="shadow-lg rounded" ><code class="javascript hljs">
+<a href="javascript:void(document.body.style.backgroundColor='yellow')">Cambia color del fondo</a> 
+<a href="javascript:void(document.body.style.backgroundColor='#fff')">Color normal</a> 
+<a href="javascript:void(document.getElementById('ejemplo').style.fontSize='20px')">Aumenta la fuente de esta sección</a>
+<a href="javascript:void(document.getElementById('ejemplo').style.fontSize='16px')">Tamaño normal</a>
+<a href="javascript:void(document.getElementById('ejemplo').style.backgroundColor='yellow')">Cambia color del fondo</a>
+<a href="javascript:void(document.getElementById('ejemplo').style.backgroundColor='white')">Color normal</a>  
+</code></pre>
+                        </section>
+                        <!--//section-->
+                    </section>
+                    <!--//section-->
+                    
+                    <footer class="footer">
+                        <div class="container text-center py-5">
+                            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+                            <small class="copyright">Template diseñado por <a class="theme-link"
+                                    href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley.</a></small>
+                            <ul class="social-list list-unstyled pt-4 mb-0">
+                                <li class="list-inline-item"><a href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f fa-fw"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.youtube.com/"><i
+                                            class="fab fa-youtube fa-fw"></i></a></li>
+                            </ul>
+                            <!--//social-list-->
+                        </div>
+                    </footer>
+            </div>
+        </div>
+    </div>
+    <!--//docs-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script>
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="assets/js/docs.js"></script>
+    <script src="assets/plugins/codigo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- SCROOLL REVEAL SCRIPT -->
+    <script>
+        window.sr = ScrollReveal();
+
+        sr.reveal('#item-1-1', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+
+        sr.reveal('#item-1-2', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+        sr.reveal('#item-1-3', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+
+        sr.reveal('#item-1-4', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+        sr.reveal('#item-1-5', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+
+        sr.reveal('#item-1-6', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+        sr.reveal('#item-1-7', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+
+        sr.reveal('.docs-header', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
